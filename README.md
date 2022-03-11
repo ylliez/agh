@@ -2,5 +2,5 @@
 
 ## TO DO
 - [favicons](https://www.favicon.cc/)
-- dropdown pages?
-- move class repos to conc repo
+- conv menu + dropdown pages?
+- move class repos to gen conc repo
