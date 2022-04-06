@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <title>Steely Stylite</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/libraries/p5.min.js"></script>
+    <script src="js/libraries/p5.sound.min.js"></script>
+    <script src="js/libraries/p5.clickable.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="js/DynamicCanvas.js"></script>
+    <script src="js/Pose.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="buttons">
+      <button id="startButton" onclick="startClicked()">START</button>
+      <button id="okButton" onclick="okClicked()">OK</button>
+      <button id="instructionsButton" onclick="instructionsClicked()">INSTRUCTIONS</button>
+      <button id="instructionsText" disabled></button>
+      <button id="reButton" onclick="reClicked()">Try Again?</button>
+    </div>
+  </body>
+
+</html>
