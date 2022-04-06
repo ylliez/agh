@@ -1,0 +1,8 @@
+{
+  "start": "$subject $auxiliary $negation $verb $object.",
+  "subject": "You[10] | We | They",
+  "auxiliary": "shall | should | could | might",
+  "negation": " not |",
+  "verb": "have | make idols of | take in vain | remember | honour | kill | commit adultery with | steal from | bear false witness against | covet ",
+  "object": "other gods | God | the name of God | the sabbath | your father and your mother | others | your neighbour | your neighbour's belongings"
+}
