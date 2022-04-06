@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Tanach;
+    src: url("../assets/data/tanach.regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0px;
+  background-color: #000;
+  background-image: url('../assets/images/Rembrandt_tablets.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #D93;
+  text-align: center;
+}
+
+#commandments {
+  font-family: Tanach, cursive;
+  font-size: 2em;
+  margin: 50px 100px;
+}
+
+#intro {
+  margin: 0px 0px;
+  color: #CCC;
+  opacity: 1;
+  font-size: 0.75em;
+}
+
+.apocrypha { opacity: 0; font-size: 1em; }
+.esoteric { user-select: none; }
+.revealed { user-select: text; }

@@ -1,0 +1,10 @@
+{
+  "start": "<span>$prp</span> <span>$md</span> <span>$rb</span> <span>$vb</span> <span>$object</span>",
+  "prp": "You[8] | I | We | They",
+  "md": "shall | should | could | might",
+  "rb": "not |",
+  "vb": "have | make idols of | take | remember | honor | kill | commit adultery with | steal from | bear false witness against | covet",
+  "vbp": "$vb",
+  "nn": "$vb",
+  "object": "other gods. | God. | the name of the Lord in vain. | the sabbath. | your father and your mother. | others. | your neighbour. | your neighbour's belongings."
+}
