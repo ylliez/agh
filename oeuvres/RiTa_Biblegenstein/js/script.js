@@ -13,7 +13,7 @@ function setup() {
   textLeading(21);
   textAlign(LEFT);
 
-  lines = ["click to (re)generate"];
+  lines = ["Wittgenstein writes the Bible. Click to (re)generate"];
 
   // create a markov model w' n=4
   markov = RiTa.markov(3);
@@ -26,8 +26,7 @@ function setup() {
 }
 
 function drawText() {
-  background(50, 30, 40);
-  fill(220);
+  background(255);
   text(lines.join(' '), x, y, width - x, height - y);
   console.log(width-x);
 }
