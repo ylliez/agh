@@ -41,7 +41,7 @@ header i { color: inherit; }
 .menu ul { background-color: #444; margin: 0; padding: 0; }
 .menu ul li { display: inline-block; width: auto; padding: 10px 15px; }
 .menu ul li:hover { background-color: #666; color: #555; }
-.menu ul li ul { display: none; position: absolute; background-color: #BBB; font-size: 16px; z-index: 1; }
+.menu ul li ul { display: none; position: absolute; background-color: #BBB; font-size: 16px; z-index: 1; margin: 10px -15px; }
 .menu ul li:hover ul { display: block; }
 .menu ul li ul li { display: block; text-align: left; padding: 10px 15px; }
 .menu ul li ul li:hover { background: #DDD; color: #333; }
