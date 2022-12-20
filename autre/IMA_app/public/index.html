@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IMA app video</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: rgb(21, 255, 0);
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- <div class="container">
+        <video class="input_video"></video>
+        <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+    </div>
+    <script type="module">
+        const videoElement = document.getElementsByClassName('input_video')[0];
+        const canvasElement = document.getElementsByClassName('output_canvas')[0];
+        const canvasCtx = canvasElement.getContext('2d');
+
+        function onResults(results) {
+            canvasCtx.save();
+            canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+            canvasCtx.drawImage(results.segmentationMask, 0, 0,
+                canvasElement.width, canvasElement.height);
+
+            // Only overwrite existing pixels.
+            canvasCtx.globalCompositeOperation = 'source-in';
+            canvasCtx.fillStyle = '#00FF00';
+            canvasCtx.fillRect(0, 0, canvasElement.width, canvasElement.height);
+
+            // Only overwrite missing pixels.
+            canvasCtx.globalCompositeOperation = 'destination-atop';
+            canvasCtx.drawImage(
+                results.image, 0, 0, canvasElement.width, canvasElement.height);
+
+            canvasCtx.globalCompositeOperation = 'source-over';
+            drawConnectors(canvasCtx, results.poseLandmarks, POSE_CONNECTIONS,
+                { color: '#00FF00', lineWidth: 4 });
+            drawLandmarks(canvasCtx, results.poseLandmarks,
+                { color: '#FF0000', lineWidth: 2 });
+            drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_TESSELATION,
+                { color: '#C0C0C070', lineWidth: 1 });
+            drawConnectors(canvasCtx, results.leftHandLandmarks, HAND_CONNECTIONS,
+                { color: '#CC0000', lineWidth: 5 });
+            drawLandmarks(canvasCtx, results.leftHandLandmarks,
+                { color: '#00FF00', lineWidth: 2 });
+            drawConnectors(canvasCtx, results.rightHandLandmarks, HAND_CONNECTIONS,
+                { color: '#00CC00', lineWidth: 5 });
+            drawLandmarks(canvasCtx, results.rightHandLandmarks,
+                { color: '#FF0000', lineWidth: 2 });
+            canvasCtx.restore();
+        }
+
+        const holistic = new Holistic({
+            locateFile: (file) => {
+                return `https://cdn.jsdelivr.net/npm/@mediapipe/holistic/${file}`;
+            }
+        });
+        holistic.setOptions({
+            modelComplexity: 1,
+            smoothLandmarks: true,
+            enableSegmentation: true,
+            smoothSegmentation: true,
+            refineFaceLandmarks: true,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+        holistic.onResults(onResults);
+
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await holistic.send({ image: videoElement });
+            },
+            width: 1280,
+            height: 720
+        });
+        camera.start();
+    </script> -->
+    <div id="container">
+        <video id="capture" style="display: none;"></video>
+        <canvas id="canvas" width="1280px" height="720px"></canvas>
+    </div>
+
+    <script>
+        const captureElement = document.getElementById('capture');
+        const canvasElement = document.getElementById('canvas');
+        const canvasCtx = canvasElement.getContext('2d');
+        let width = innerWidth, height = innerHeight;
+        canvasElement.width = width;
+        canvasElement.height = height;
+        let state = 0;
+        let timerStarted = false;
+
+        const holistic = new Holistic({
+            locateFile: (file) => {
+                return `https://cdn.jsdelivr.net/npm/@mediapipe/holistic/${file}`;
+            }
+        });
+        holistic.setOptions({
+            selfieMode: true,
+            modelComplexity: 1,
+            smoothLandmarks: true,
+            enableSegmentation: true,
+            smoothSegmentation: true,
+            refineFaceLandmarks: true,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+        holistic.onResults(onResults);
+
+        const camera = new Camera(captureElement, {
+            onFrame: async () => {
+                await holistic.send({ image: captureElement });
+            },
+            width: width,
+            height: height
+        });
+        camera.start();
+
+        function onResults(results) {
+            if (!timerStarted) {
+                let timer = setInterval(function () {
+                    state++;
+                    console.log(state);
+                }, 1000)
+                timerStarted = true;
+            }
+            canvasCtx.save();
+            canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+            if (state >= 95) {
+                canvasCtx.drawImage(results.image, 0, 0, canvasElement.width, canvasElement.height);
+            }
+            if (state >= 10 && state < 108) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_LIPS, { color: '#15ff00' });
+            }
+            if (state >= 20 && state < 113) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_RIGHT_EYE, { color: '#15ff00' });
+            }
+            if (state >= 25 && state < 117) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_RIGHT_IRIS, { color: '#15ff00' });
+            }
+            if (state >= 30 && state < 113) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_LEFT_EYE, { color: '#15ff00' });
+            }
+            if (state >= 32 && state < 118) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_LEFT_IRIS, { color: '#15ff00' });
+            }
+            if (state >= 39 && state < 106) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_LEFT_EYEBROW, { color: '#15ff00' });
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_RIGHT_EYEBROW, { color: '#15ff00' });
+            }
+            if (state >= 40 && state < 115) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_FACE_OVAL, { color: '#15ff00' });
+            }
+            if (state >= 50 && state < 100) {
+                drawConnectors(canvasCtx, results.faceLandmarks, FACEMESH_TESSELATION, { color: '#15ff00', lineWidth: 1 });
+            }
+            if (state >= 61 && state < 112) {
+                drawConnectors(canvasCtx, results.leftHandLandmarks, HAND_CONNECTIONS, { color: '#15ff00', lineWidth: 5 });
+            }
+            if (state >= 63 && state < 110) {
+                drawLandmarks(canvasCtx, results.leftHandLandmarks, { color: '#15ff00', lineWidth: 2 });
+            }
+            if (state >= 69 && state < 111) {
+                drawConnectors(canvasCtx, results.rightHandLandmarks, HAND_CONNECTIONS, { color: '#15ff00', lineWidth: 5 });
+            }
+            if (state >= 70 && state < 110) {
+                drawLandmarks(canvasCtx, results.rightHandLandmarks, { color: '#15ff00', lineWidth: 2 });
+            }
+            canvasCtx.restore();
+        }
+        // }
+    </script>
+</body>
+
+</html>
