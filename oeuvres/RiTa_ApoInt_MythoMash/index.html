@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
 
-    <title>Tractatus Logico-Biblicus</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
 
-    <!-- CSS stylesheet(s) -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Mythologer Mash</title>
 
-    <!-- Library script(s) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/rita"></script>
-  </head>
+  <!-- CSS stylesheet(s) -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  <body>
-    <!-- HTML -->
+  <!-- Library script(s) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/rita"></script>
+</head>
 
-    <!-- Local script(s) -->
-    <script src="js/script.js"></script>
-  </body>
+<body>
+  <select id="dropdown1">
+    <option value="0">Bible</option>
+    <option value="1">Qur'an</option>
+    <option value="2">Bhagavad Gita</option>
+    <option value="3">Vedas</option>
+    <option value="4">Kafka</option>
+    <option value="5">Wittgenstein</option>
+  </select>
+  <select id="dropdown2">
+    <option value="0">Bible</option>
+    <option value="1">Qur'an</option>
+    <option value="2">Bhagavad Gita</option>
+    <option value="3">Vedas</option>
+    <option value="4">Kafka</option>
+    <option value="5">Wittgenstein</option>
+  </select>
+  <button id="buttonLoad" onclick="loadTexts()">(re)Load texts</button>
+  <button id="buttonGen" style="display: none;" onclick="generateText()">(re)Generate text</button>
+  <p id="output"></p>
+  <script src="js/script.js"></script>
+</body>
 
 </html>
