@@ -13,5 +13,6 @@
 
 ### [Demo]()
 
-Supported by the Canada Council of Arts.<br>
+Supported by the Canada Council of Arts.
+
 <img src="assets/CCA_RGB_black_e.svg" width="50%">
