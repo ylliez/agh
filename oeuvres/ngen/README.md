@@ -53,6 +53,7 @@ In the context of this project, and to provide preliminary answers to these ques
 
 **Placebo**: a substance or treatment with no proven therapeutic or medicinal properties, usually used to assess the effectiveness of another substance or treatment by comparison. Placebos can nonetheless elicit perceived as well as measurable changes. A superplacebo is a placebo that is perceived as having therapeutic or medicinal properties by both the prescriber and the consumer.
 
-
+## Acknowledgments
+This project is indebted to David Clark.
 
 
