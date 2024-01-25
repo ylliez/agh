@@ -15,13 +15,13 @@ Building on the three prototypes, the next explorations involve developing bette
 <img src="assets/soma1_doc_BEV.jpg" width="49%">
 <img src="assets/soma1_doc_vidSS_e.png" width="49%">
 
-### [Demo](https://youtu.be/eSgTZhMGZtM)
+<!-- ### [Demo](https://youtu.be/eSgTZhMGZtM) -->
 
 ## Somaphore 2.0 (2021-2022)
 <img src="assets/soma2_doc_bott.jpg" width="49%">
 <img src="assets/soma2_doc_top.jpg" width="49%">
 
-### [Demo](https://youtu.be/Pp8VppiNQ3Q)
+<!-- ### [Demo](https://youtu.be/Pp8VppiNQ3Q) -->
 
 ## Somaphore 3.0 (2022-2023)
 <img src="assets/soma3_doc_suit.jpg" width="50%">
