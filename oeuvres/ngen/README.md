@@ -5,6 +5,10 @@
 Neurogenesis (2023)<br>
 Max/MSP, OpenBCI_GUI, OpenBCI EEG headset, 27-screen display wall, 27-speaker sound system<br>
 
+## Demos
+[Short documentation](https://youtu.be/TM4ktU5Gmj0)<br>
+[Long screen-recording](https://youtu.be/lwD9mxit4yI)
+
 ## Keywords
 neurocentrism, EEG, bioart, neuroenchantment, particle systems, sound spatialization
 
@@ -54,6 +58,6 @@ In the context of this project, and to provide preliminary answers to these ques
 **Placebo**: a substance or treatment with no proven therapeutic or medicinal properties, usually used to assess the effectiveness of another substance or treatment by comparison. Placebos can nonetheless elicit perceived as well as measurable changes. A superplacebo is a placebo that is perceived as having therapeutic or medicinal properties by both the prescriber and the consumer.
 
 ## Acknowledgments
-This project is indebted to David Clark.
+This project is indebted to David Clark for technical wizardry and kind presence.
 
 
