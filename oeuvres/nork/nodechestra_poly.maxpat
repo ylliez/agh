@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 5,
 			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 293.0, 109.0, 200.0, 100.0 ],
+		"rect" : [ 293.0, 109.0, 639.0, 654.0 ],
 		"openrect" : [ 0.0, 0.0, 200.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -71,10 +71,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.166672000000062, 413.076920509338379, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 5"
 				}
 
@@ -110,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 160.429481557300505, 275.0, 40.0, 22.0 ],
-					"text" : "*~ 0.2"
+					"patching_rect" : [ 160.429481557300505, 275.0, 47.0, 22.0 ],
+					"text" : "*~ 0.01"
 				}
 
 			}
@@ -147,10 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 98.179481557300505, 249.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 4"
 				}
 
@@ -223,10 +215,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.875, 422.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 7"
 				}
 
@@ -239,10 +227,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 130.429481557300505, 497.076922178268433, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 6"
 				}
 
@@ -538,6 +522,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.125, 590.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -1191,15 +1179,31 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "PanGt2.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : "../../../../Max 8/Library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PanSw2.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : "../../../../Max 8/Library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "2001",
 				"number" : 				{
-					"textcolor_inverse" : [ 0.980392, 0.886275, 0.270588, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.996636, 0.36561, 0.122251, 1.0 ],
-					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"fontname" : [ "Menlo Regular" ]
+					"bgcolor" : [ 0.996636, 0.36561, 0.122251, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontname" : [ "Menlo Regular" ],
+					"selectioncolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
+					"textcolor_inverse" : [ 0.980392, 0.886275, 0.270588, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1208,15 +1212,15 @@
 , 			{
 				"name" : "VMS-Grading**",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
-					"fontface" : [ 1 ],
-					"clearcolor" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
-					"textcolor" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
-					"selectioncolor" : [ 0.400004804134369, 0.80004358291626, 0.998939156532288, 1.0 ],
 					"accentcolor" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
-					"elementcolor" : [ 0.541176470588235, 0.274509803921569, 0.015686274509804, 1.0 ],
+					"clearcolor" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
 					"color" : [ 0.400004804134369, 0.80004358291626, 0.998939156532288, 1.0 ],
-					"patchlinecolor" : [ 0.482352941176471, 0.674509803921569, 0.76078431372549, 0.77 ]
+					"elementcolor" : [ 0.541176470588235, 0.274509803921569, 0.015686274509804, 1.0 ],
+					"fontface" : [ 1 ],
+					"patchlinecolor" : [ 0.482352941176471, 0.674509803921569, 0.76078431372549, 0.77 ],
+					"selectioncolor" : [ 0.400004804134369, 0.80004358291626, 0.998939156532288, 1.0 ],
+					"textcolor" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
+					"textcolor_inverse" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ]
 				}
 ,
 				"number" : 				{
@@ -1229,11 +1233,11 @@
 , 			{
 				"name" : "VMS_grading",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
+					"accentcolor" : [ 0.059509769082069, 0.501929938793182, 0.998454749584198, 0.59 ],
 					"bgcolor" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
 					"clearcolor" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
 					"textcolor" : [ 0.990445077419281, 0.502227902412415, 0.032891403883696, 1.0 ],
-					"accentcolor" : [ 0.059509769082069, 0.501929938793182, 0.998454749584198, 0.59 ]
+					"textcolor_inverse" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1269,8 +1273,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

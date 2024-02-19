@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -356,8 +356,8 @@
 			}
 , 			{
 				"box" : 				{
-					"attack_time" : 999.0,
-					"decay_time" : 153.0,
+					"attack_time" : 10.0,
+					"decay_time" : 100.0,
 					"id" : "obj-55",
 					"maxclass" : "live.adsrui",
 					"numinlets" : 10,
@@ -366,20 +366,21 @@
 					"patching_rect" : [ 1153.0, 148.950111806428936, 189.000000000000057, 77.307223200725502 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 300.250000000000114, 659.889183682336807, 252.0, 112.307223200725502 ],
-					"release_time" : 859.0,
-					"sustain" : 0.169169169169169
+					"release_time" : 500.0,
+					"sustain" : 0.7997997997998
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.5, 144.331023999999957, 40.0, 22.0 ],
-					"text" : "1 0 0"
+					"patching_rect" : [ 7.5, 144.331023999999957, 40.0, 35.0 ],
+					"text" : "4 66 0"
 				}
 
 			}
@@ -555,8 +556,8 @@
 			}
 , 			{
 				"box" : 				{
-					"attack_time" : 999.0,
-					"decay_time" : 710.0,
+					"attack_time" : 10.0,
+					"decay_time" : 100.0,
 					"id" : "obj-13",
 					"maxclass" : "live.adsrui",
 					"numinlets" : 10,
@@ -565,8 +566,8 @@
 					"patching_rect" : [ 386.804631370084735, 148.950111806428936, 189.000000000000057, 77.307223200725502 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.388880590598774, 506.639183682336693, 255.000000000000057, 112.307223200725502 ],
-					"release_time" : 669.0,
-					"sustain" : 0.1001001001001
+					"release_time" : 500.0,
+					"sustain" : 0.7997997997998
 				}
 
 			}
@@ -631,8 +632,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1528,8 +1527,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1948,8 +1947,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2284,8 +2283,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2591,8 +2590,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2953,8 +2952,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2999,8 +2998,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3124,8 +3123,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3766,8 +3765,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6218,8 +6217,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6937,6 +6936,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -6994,8 +6995,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7253,6 +7254,8 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 5.0, 242.0, 47.25, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 56.25, 1.0, 31.5, 22.0 ],
 									"triangle" : 0
 								}
 
@@ -7877,8 +7880,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9600,8 +9603,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11853,8 +11856,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13885,14 +13888,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "PanGt2.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../Max 8/Library",
+				"patcherrelativepath" : "../../../../Max 8/Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PanSw2.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../Max 8/Library",
+				"patcherrelativepath" : "../../../../Max 8/Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13910,14 +13913,14 @@
 			}
 , 			{
 				"name" : "localhost.js",
-				"bootpath" : "~/Documents/GitHub/nodechestra",
+				"bootpath" : "~/Documents/GitHub/agh/oeuvres/nork",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "max.js",
-				"bootpath" : "~/Documents/GitHub/nodechestra",
+				"bootpath" : "~/Documents/GitHub/agh/oeuvres/nork",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -13930,7 +13933,7 @@
 			}
 , 			{
 				"name" : "nodechestra_poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/nodechestra",
+				"bootpath" : "~/Documents/GitHub/agh/oeuvres/nork",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
