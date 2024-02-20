@@ -15,11 +15,11 @@ const captureElement = document.getElementById('capture');
 // 16:9 -> 1280 * 720
 // let capture, captureWidth = 1280, captureHeight = 720;
 // 4:3 -> 640 * 480
-let capture, captureWidth = 640, captureHeight = 480;
+// let capture, captureWidth = 640, captureHeight = 480;
 // CCTV dims: 768 * 494 pixels (https://www.manualslib.com/manual/118015/Panasonic-Aw-E300.html?page=52#manual)
 // let capture, captureWidth = 768, captureHeight = 494;
 // dynamic -> window width & height
-// let capture, captureWidth = window.Width, captureHeight = window.Height;
+let capture, captureWidth = window.Width, captureHeight = window.Height;
 // display aspect ratio
 const aspectRatio = captureWidth / captureHeight;
 // dynamic canvas dimensions
@@ -252,7 +252,7 @@ function sim() {
 function displayVideo() {
   push();
   // mirror video feed
-  translate(width,0);
+  translate(width, 0);
   scale(-1, 1);
   // display video feed
   image(capture, 0, 0, width, height);
@@ -321,9 +321,9 @@ function photoboothEffect() {
   // set countdown duration to three seconds
   let seconds = 3;
   // create interval to iterate through GUI countdown
-  let photoboothCountdown = setInterval( () => {
+  let photoboothCountdown = setInterval(() => {
     // when countdown over, clear the interval & take screenshot
-    if (seconds <= 0){
+    if (seconds <= 0) {
       // clear countdown interval
       clearInterval(photoboothCountdown);
       // generate QR Code
@@ -353,7 +353,7 @@ function generateQRcode() {
   // clear contents of QR code div; if a code has already been generated, removes it
   qrDiv.html("");
   // get p5 canvas element, screenshot it, convert to URI and tag with key for PHP retrieval
-  let canvas  = document.getElementById("defaultCanvas0");
+  let canvas = document.getElementById("defaultCanvas0");
   let canvasURL = canvas.toDataURL("image/png", 1);
   let data = new FormData();
   data.append("canvasImage", canvasURL);
@@ -383,12 +383,12 @@ function generateQRcode() {
         correctLevel: QRCode.CorrectLevel.H
       });
       // display div QR code is appended to
-        qrDiv.css("display", "block");
+      qrDiv.css("display", "block");
       // create 10s timeout for QR display and GUI hiding
-      resetGUI = setTimeout( () => { resetGUIElements(); }, 15000);
+      resetGUI = setTimeout(() => { resetGUIElements(); }, 15000);
     },
     // helper function
-    error: function() { console.log("error occurred"); }
+    error: function () { console.log("error occurred"); }
   });
 }
 
