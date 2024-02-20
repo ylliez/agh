@@ -1,4 +1,12 @@
 # Telomatic
+
+**[Online](https://hybrid.concordia.ca/i_planch/telomatic/) / [Gallery](https://hybrid.concordia.ca/i_planch/telomatic/gallery/)**
+<!-- ## [Demo](https://ylliez.github.io/telomatic/web/) -->
+<!-- (server communication unsupported on GitHub, will crash when screenshot taken) -->
+<!-- ## [Hybrid](https://hybrid.concordia.ca/i_planch/telomatic/) -->
+<!-- ## [R&D](https://docs.google.com/document/d/171jCMU2Uvftuaj1wQvpLnJiblMUfXRC_yw7K845iRvM/edit#) -->
+
+
 *Telomatic* is an exploration of post-digital intersubjectivity through electronic, sculptural and computational art. <br><br>
 Drawing inspiration from telematic art, technology ethics and cypherpunk ideas, this project seeks to comment on and propose playfully engaging alternatives to the dematerialization of contemporary virtualized landscapes while addressing concerns of cybersecurity in our increasingly connected age. <br><br>
 <img src="assets/doc/telo3_all.jpg" width="100%">
@@ -27,9 +35,3 @@ Technically, the application rests on a structure of HTML & CSS, is scripted in 
 <br><br>
 This project is indebted to Sabine Rosenberg.
 
-## [Online](https://hybrid.concordia.ca/i_planch/telomatic/)
-<!-- ## [Demo](https://ylliez.github.io/telomatic/web/) -->
-<!-- (server communication unsupported on GitHub, will crash when screenshot taken) -->
-## [Gallery](https://hybrid.concordia.ca/i_planch/telomatic/gallery/)
-<!-- ## [Hybrid](https://hybrid.concordia.ca/i_planch/telomatic/) -->
-<!-- ## [R&D](https://docs.google.com/document/d/171jCMU2Uvftuaj1wQvpLnJiblMUfXRC_yw7K845iRvM/edit#) -->
