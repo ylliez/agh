@@ -9,8 +9,6 @@ This data is then piped to a [Max/MSP](https://cycling74.com/products/max) patch
 
 The synthesizer’s function is broken down into a set number of components (voices, waveform, amplitude envelope, reverb, etc..), which are parceled out to various eponymous client pages. The user triggers parameter changes using gestural control, the nature of which depends on their attributed parameter.
 
-## [Demo](https://youtu.be/ZL5iTugi0Ug)
-
 ## Instructions
 1. Download [project folder](https://github.com/ylliez/nodechestra) from GitHub
 2. Download [Max/MSP application](https://cycling74.com/downloads) (free trial)
@@ -51,7 +49,12 @@ The synthesizer’s function is broken down into a set number of components (voi
 | arpeggiator | arpeggiator parameters    |  hands  | RY: duty / LX: rate                              
 |             |                           |         |                              
 
-## R&D
+
+## [Online](https://nodechestra.herokuapp.com/)
+<br><br>![public/assets/nork_qr.png](public/assets/nork_qr.png)<br><br>
+## [Demo](https://youtu.be/ZL5iTugi0Ug)
+
+<!-- ## R&D
 ### [MediaPipe](https://google.github.io/mediapipe/)
 - Hands
     - [Hand implementation](https://google.github.io/mediapipe/solutions/hands)
@@ -137,4 +140,4 @@ const socket = io("https://nodechestra.herokuapp.com/max");
 ```
 - [ ] landing page UI
 - [ ] on-page instructions?
-- [ ] waveform GUI
+- [ ] waveform GUI -->
