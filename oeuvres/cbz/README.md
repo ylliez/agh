@@ -3,14 +3,13 @@
 <img src="assets/cbz_doc_sel_gen_zoom.JPG" width="100%"><br>
 
 *Cerebronze* (2024)<br>
-illiez, Ranjini Garani, Nelly Blanken<br>
-In collaboration with Olivier Nadeau Seguin and Peter Vrana
-Bronze, steel<br>
-3m x 1m x 1.5m (4 pieces 60x30x150cm)
+illiez, Ranjini Garani & Nelly Blanken<br>
+In collaboration with Olivier Nadeau Seguin & Peter Vrana<br>
+Bronze, steel - 3m x 1m x 1.5m (4 pieces 60x30x150cm)
 
 ---
 
-Cerebronze is a bronze sculpture exploring neuroscience through a playful and tangible representation of neuroimaging techniques. The installation consists of four freestanding bronze-cast pieces replicating a sagittal slice of the human brain. The individual pieces take the shape of the four cerebral lobes – frontal, parietal, temporal, and occipital – placed so as to offer perspectival play. Viewers are invited to navigate the sculpture, discovering different facets of the human brain. 
+*Cerebronze* is a bronze sculpture exploring neuroscience through a playful and tangible representation of neuroimaging techniques. The installation consists of four freestanding bronze-cast pieces replicating a sagittal slice of the human brain. The individual pieces take the shape of the four cerebral lobes – frontal, parietal, temporal, and occipital – placed so as to offer perspectival play. Viewers are invited to navigate the sculpture, discovering different facets of the human brain. 
 
 <img src="assets/cbz_doc_sel_perspective.JPG" width="49%">
 <img src="assets/cbz_doc_sel_model.png" width="49%">
@@ -27,7 +26,7 @@ The realization of the sculpture is divided into several stages. First, the MRI 
 
 Although this project aims for scientific accuracy in portraying brain functionality, the introduction of bronze brings with it a level of unpredictability and artistic abstraction. While the manufacturing techniques highlight the fusion between traditional artistry and modern technology, placing a bronze sculpture outside conventional spaces aims to make both science and art more accessible to the public. 
 
-Blending visual appeal, physical interaction, and reflection, Cerebronze aspires to offer new perspectives on brain function, providing a space where art and science converge to ignite curiosity and deepen understanding. 
+Blending visual appeal, physical interaction, and reflection, *Cerebronze* aspires to offer new perspectives on brain function, providing a space where art and science converge to ignite curiosity and deepen understanding. 
 
 <img src="assets/cbz_doc_sel_gen_1x1.JPG" width="49%"><br>
 
