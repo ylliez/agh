@@ -8,8 +8,8 @@
 <!-- ### [Demo]() -->
 
 ## Caféphone 2.0 (2024) - WIP
-<!-- <img src="assets/doc/cafe2_doc_gen.jpg" width="49%"> -->
-<!-- <img src="assets/doc/cafe2_doc_guts.jpg" width="49%"> -->
+<img src="assets/doc/cafe2_doc_gen.jpg" width="49%">
+<img src="assets/doc/cafe2_doc_guts.jpg" width="49%">
 
 <!-- ### [Demo]() -->
 
