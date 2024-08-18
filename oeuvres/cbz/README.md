@@ -3,7 +3,7 @@
 <img src="assets/cbz_doc_sel_gen_zoom.JPG" width="100%"><br>
 
 *Cerebronze* (2024)<br>
-illiez, Ranjini Garani, Nelly Blanken
+illiez, Ranjini Garani, Nelly Blanken<br>
 In collaboration with Olivier Nadeau Seguin and Peter Vrana
 Bronze, steel<br>
 3m x 1m x 1.5m (4 pieces 60x30x150cm)
