@@ -1,13 +1,11 @@
 # *Caféphone*
 
-[tbd]
-
 ## Caféphone 1.0 (2021)
 <img src="assets/doc/cafe1_doc_gen.png" width="100%">
 
 <!-- ### [Demo]() -->
 
-## Caféphone 2.0 (2024) - WIP
+## Caféphone 2.0 (2024)
 <img src="assets/doc/cafe2_doc_gen.jpg" width="49%">
 <img src="assets/doc/cafe2_doc_guts.jpg" width="49%">
 
