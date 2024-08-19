@@ -28,4 +28,4 @@ Supported by the Convergence Initiative, Concordia Student Union (CSU) and Conco
 
 <img src="assets/ACD_logos_Convergence_cut.png" width="24%">
 <img src="assets/ACD_logos_CSU_b.png" width="24%">
-<img src="assets/ACD_logos_CUAA.png" width="24%">
+<img src="assets/ACD_logos_CUAA_b.png" width="24%">
