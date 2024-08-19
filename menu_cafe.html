@@ -11,23 +11,24 @@
 </head>
 
 <body>
-    <!-- Include the menu here -->
     <div id="menu"></div>
 
-    <h1>Caféphone</h1>
+    <div id="page">
 
-    <h2>Caféphone 1.0 (2021)</h2>
-    <img src="assets/doc/cafe1_doc_gen.png" width="100%">
+        <h1>Caféphone</h1>
 
-    <h2>Caféphone 2.0 (2024)</h2>
-    <img src="assets/doc/cafe2_doc_gen.jpg" width="49%">
-    <img src="assets/doc/cafe2_doc_guts.jpg" width="49%">
+        <h2>Caféphone 1.0 (2021)</h2>
+        <img src="assets/doc/cafe1_doc_gen.png" width="100%">
 
-    <p>Supported by the Canada Council of Arts.</p>
-    <img src="assets/CCA_RGB_black_e.svg" width="50%">
+        <h2>Caféphone 2.0 (2024)</h2>
+        <img src="assets/doc/cafe2_doc_gen.jpg" width="49%">
+        <img src="assets/doc/cafe2_doc_guts.jpg" width="49%">
+
+        <p>Supported by the Canada Council of Arts.</p>
+        <img src="assets/CCA_RGB_black_e.svg" width="50%">
+    </div>
 
     <script>
-        // Fetch and include the menu
         fetch('menu.html')
             .then(response => response.text())
             .then(data => {
