@@ -30,4 +30,19 @@ Blending visual appeal, physical interaction, and reflection, *Cerebronze* aspir
 
 <img src="assets/cbz_doc_sel_gen_1x1.JPG" width="49%"><br>
 
+Exhibitions:
+- Convergence 7, Research Institute of the McGill University Health Centre (Montreal, Quebec)
+- Neuroreceptor Mapping (NRM) Conference, Centre Mont-Royal (Montreal, Quebec)
+- QBIN Scientific Day 2024, Concordia University (Montreal, Quebec)
+- Douglas Research Day, Douglas Mental Health University Institute (Montreal, Quebec)
+- NeuroLingo Spring 2024 Edition, Bibliothèque et Archives nationales du Québec (Montreal, Quebec)
+- Amazing Brain (HBHL), PHI Centre (Montreal, Quebec)
+- HBHL symposium. 
+
+
 Supported by the Convergence Initiative, Quebec Bio-imaging Network (QBIN), Concordia Student Union (CSU) and Concordia University Alumni Association (CUAA).
+
+<img src="assets/ACD_logos_Convergence_b.png" width="24%">
+<img src="assets/ACD_logos_QBIN.png" width="24%">
+<img src="assets/ACD_logos_CSU_b.png" width="24%">
+<img src="assets/ACD_logos_CUAA.png" width="24%">
