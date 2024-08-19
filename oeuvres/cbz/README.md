@@ -42,7 +42,7 @@ Exhibitions:
 
 Supported by the Convergence Initiative, Quebec Bio-imaging Network (QBIN), Concordia Student Union (CSU) and Concordia University Alumni Association (CUAA).
 
-<img src="assets/ACD_logos_Convergence_b.png" width="24%">
+<img src="assets/ACD_logos_Convergence_cut.png" width="24%">
 <img src="assets/ACD_logos_QBIN.png" width="24%">
 <img src="assets/ACD_logos_CSU_b.png" width="24%">
 <img src="assets/ACD_logos_CUAA.png" width="24%">
