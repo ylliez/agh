@@ -13,13 +13,65 @@ h2 {
   color: #555;
 }
 
-img {
-  margin-bottom: 20px;
-  display: block;
+.centered {
+  text-align: center;
+}
+
+.image-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.audio-container img {
+  /* display: block; */
   max-width: 100%;
+  /* height: auto; */
+}
+
+.audio-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.audio-container audio {
+  /* max-width: 100px; */
+  /* display: block; */
+  border-radius: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ddd;
+  padding: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.audio-container audio:hover {
+  transform: scale(1.05);
+  background-color: #ccc;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.twoWide {
+  width: 49%;
   height: auto;
 }
 
-.centered {
-  text-align: center;
+.threeWide {
+  width: 32%;
+  height: auto;
+}
+
+.fourWide {
+  width: 24%;
+  height: auto;
 }
