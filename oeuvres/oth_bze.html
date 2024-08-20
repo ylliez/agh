@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bronze - Other</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1>Bronze - Other</h1>
+
+        <h2>Atalaria</h2>
+        <div class="image-container">
+            <img src="assets/doc/OTH_Atalaria_1.jpg" width="32%">
+            <img src="assets/doc/OTH_Atalaria_2.jpg" width="32%">
+            <img src="assets/doc/OTH_Atalaria_3.jpg" width="32%">
+        </div>
+
+        <hr>
+
+        <h2>Ascolta</h2>
+        <div class="image-container">
+            <img src="assets/doc/OTH_Ascolta_1.jpg" width="49%">
+            <img src="assets/doc/OTH_Ascolta_2.jpg" width="49%">
+        </div>
+
+        <hr>
+
+        <h2>Telo</h2>
+        <div class="image-container">
+            <img src="assets/doc/OTH_telo_1.jpg" width="100%">
+        </div>
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('menu').innerHTML = data; });
+    </script>
+</body>
+
+</html>
