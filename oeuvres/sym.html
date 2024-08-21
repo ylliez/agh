@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <title>Symphenia</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Symphenia</em></h1>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/sym_doc_sel_0_zoom1.jpg"><br>
+        </div>
+
+        <p><em>Symphenia</em> (2024)<br>
+            Interactive installation (Wood, fabric, steel, acrylic, electronics)<br>
+            Durcheinander Collective (illiez, Sarah Hontoy-Major, Liana Kaloussian, Antoine Bou Khalil)</p>
+        <hr>
+
+        <p><em>Symphenia</em> is an interactive experience harnessing computational, sculptural, and electronic art to represent the neuroscience of perception, exploring concepts of attention, interpretation, and cognition through rich visual stimuli and layered technologies.</p>
+
+        <p>The piece consists of a polyptych of 5 custom-made LED panels, animated by viewer interaction using real-time body recognition.
+            At rest, the panel displays colour patterns driven by chaotic algorithms, echoing the divergent spontaneity of unstimulated neural activity. Translucent stretch fabric drawn over the panel diffuses the light source into a gestalt whole, highlighting the perceived continuity and completeness of sensory experience.</p>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/sym_doc_sel_2_chaosColour.png">
+            <img class="twoWide" src="assets/doc/sym_doc_sel_0_zoom2.jpg">
+        </div>
+
+        <p>A camera mounted above the panels feeds a machine learning model detecting human body contour, which triggers a slow convergence towards chromatic homogeneity within the detected silhouette. This gradual visual variation emerges from the Durcheinander rate, our ad hoc algorithm which serves as the computational scaffolding for the representation of ostensibly chaotic yet algorithmically deterministic patterns. Once the passerby exits the visual field of the camera, the LEDs slowly regress to chaotic variation, leaving lingering vestiges of interaction.</p>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/sym_doc_sel_1_body.jpg"><br>
+        </div>
+
+        <p><em>Symphenia</em> is intended as an accessible representation of complex neuroscience concepts, a means for the broader community to gain greater understanding of perception and cognition through an interactive artistic experience soliciting soft fascination. Through an interplay between instantaneous and sustained immersion, the audience is invited to bask in the colourful world of neuroscience.</p>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/sym_doc_sel_0_1x1.jpg">
+        </div>
+
+        <div class="logo-container">
+            <img src="assets/logos/ACD_logos_Convergence_cut.png">
+            <img src="assets/logos/ACD_logos_CSU_b.png">
+            <img src="assets/logos/ACD_logos_CUAA_b.png">
+        </div>
+
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('menu').innerHTML = data; });
+    </script>
+</body>
