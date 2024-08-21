@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <title>Memento manducare</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Memento manducare</em></h1>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/mema_doc_AM3.jpg">
+            <img class="twoWide" src="assets/doc/mema_doc_AM5.jpg">
+        </div>
+
+        <p><em>Memento manducare</em> (2022)<br>
+            Bronze, found objects<br>
+            50 x 100 cm
+        </p>
+
+        <hr>
+
+        <p><em>Memento manducare</em> is a sculptural exploration of the role of the body in alimentary practices and related social discourse, existing as a collection of somatically-inspired objects combining traditional industrial kitchenware shapes with organic corporeal forms.</p>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/mema_bronze_8.jpg">
+            <img class="twoWide" src="assets/doc/mema_bronze_5.jpg">
+        </div>
+
+        <p>The collection includes a set of five bronze-cast pieces (a spoon, a fork, a goblet, a cup, and a mug) as well as two assemblages joining bronze pieces with existing objects (a pan lid and a stovetop espresso pot). The flatware merges traditional cutlery handles with lifecast body parts: the spoon bowl is a human ear, and the fork tines a toddler’s hand. The drinkware amalgamates the unremarkable exterior of drinking vessels with a striking interior emulating a mouth cavity. The two assemblages incorporate bronze-cast toes as knobs for pot and pan lids.</p>
+
+        <div class="image-container">
+            <img class="threeWide" src="assets/doc/mema_bronze_3.jpg">
+            <img class="threeWide" src="assets/doc/mema_bronze_4.jpg">
+            <img class="threeWide" src="assets/doc/mema_bronze_6.jpg">
+        </div>
+
+        <p>Distorting the artistic trope of the memento mori, the piece acts as a broader reminder of one’s own edibility, which, rather than harnessing the moralizing Judeo-Christian fear-mongering morbidity of mortality, intends to resituate the viewer both physiologically as well as ecologically. In an age of accelerated productivist mechanization and increasingly disembodied virtualization, <em>Memento manducare</em> harnesses uncanny visual and sensory experiences to reinvest carnality. The objects serve to disrupt a societal tendency towards corporeal abnegation, confronting the viewer with tableware unusably inconvenient and unexpectedly sensual, forcing a rereading of the situation and recontextualization of eating as a fundamentally somatic process.</p>
+
+        <div class="image-container">
+            <img class="fullWide" src="assets/doc/mema_doc_AM2.jpg">
+        </div>
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
