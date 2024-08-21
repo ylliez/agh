@@ -9,18 +9,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
     <title>Caféphone</title>
+    <style>
+        body {
+            background-image: url('assets/doc/cafe2_doc_guts2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.6);
+            z-index: -1;
+        }
+    </style>
 </head>
 
 <body>
     <div id="menu"></div>
 
     <div id="page">
-        <h1>Caféphone</h1>
+        <h1><em>Caféphone</em></h1>
 
-        <h2>Caféphone 1.0 (2021)</h2>
+        <h2><em>Caféphone 1.0</em> (2021)</h2>
         <img class="oneWide" src="assets/doc/cafe1_doc_gen.png">
 
-        <h2>Caféphone 2.0 (2024)</h2>
+        <h2><em>Caféphone 2.0</em> (2024)</h2>
+
         <div class="image-container">
             <img class="twoWide" src="assets/doc/cafe2_doc_gen.jpg">
             <img class="twoWide" src="assets/doc/cafe2_doc_guts.jpg">
