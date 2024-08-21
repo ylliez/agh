@@ -1,10 +1,9 @@
 #page {
-  font-family: Arial, sans-serif;
-  /* background-color: #f9f9f9; */
+  font-family: monospace;
   color: #000;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
 
 h1 {
@@ -15,6 +14,18 @@ h1 {
 h2 {
   font-size: 1.5em;
   color: #333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 0.5em;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+
 }
 
 .centered {
@@ -118,4 +129,12 @@ h2 {
 .twoThirdWide {
   width: 65%;
   height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
