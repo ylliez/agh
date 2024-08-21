@@ -1,13 +1,15 @@
 #page {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   color: #333;
-  padding: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
   padding-bottom: 50px;
 }
 
 h1 {
-  font-style: italic;
+  text-align: center;
+  font-size: 3em;
 }
 
 h2 {
