@@ -60,7 +60,7 @@ p {
 
 .video-container iframe {
   width: 49%;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .audio-container {
