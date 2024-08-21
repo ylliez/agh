@@ -40,11 +40,16 @@ h2 {
   border-radius: 20px;
 }
 
-.image-container iframe {
-  /* display: block; */
-  max-width: 100%;
-  /* height: auto; */
-  border-radius: 20px;
+.video-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.video-container iframe {
+  width: 49%;
+  height: 300px;
 }
 
 .audio-container {
