@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <title>Laptop Orchestras</title>
+    <style>
+        body {
+            background-image: url('assets/doc/nork_doc_demo_e.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.6);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Laptop Orchestras</em></h1>
+
+        <!-- <div class="image-container">
+            <img class="oneWide" src="assets/doc/soma3_doc_suit_zoom.jpg">
+        </div> -->
+
+        <p><em>Laptop Orchestras</em> is</p>
+
+        <p>Lorem Ipsum</p>
+
+        <p><em>Laptop Orchestras</em></p>
+
+        <p>Lorem Ipsum</p>
+
+        <h2>Zoomchestra (2021)</h2>
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/zork_doc_ss.png">
+        </div>
+
+        <h2>Nodechestra (2022)</h2>
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/nork_doc_demo_e.png">
+        </div>
+        <div class="image-container">
+            <img class="threeWide" src="assets/doc/nork_doc_landing.png">
+            <img class="threeWide" src="assets/doc/nork_doc_voice.png">
+            <img class="threeWide" src="assets/doc/nork_doc_noise.png">
+        </div>
+        <div class="image-container">
+            <img class="threeWide" src="assets/doc/nork_doc_adsr.png">
+            <img class="threeWide" src="assets/doc/nork_doc_filter.png">
+            <img class="threeWide" src="assets/doc/nork_doc_delay.png">
+        </div>
+
+
+        <h2>Bogorchestra (2024)</h2>
+        Fixed stereo media, interactive smartphone camera-based stereo media, visual projection.
+        <p>In collaboration with James Ford.</p>
+        <!-- https://docs.google.com/document/d/1Fr7uGhUzv4KFjkSqeempY9_ERTErPwSt1LH8pAOz0dw/edit -->
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/bork_doc_ui1.png">
+            <img class="twoWide" src="assets/doc/bork_doc_max.png">
+        </div>
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/bork_doc_pres1.png">
+            <img class="twoWide" src="assets/doc/bork_doc_demo.png">
+        </div>
+
+
+
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
