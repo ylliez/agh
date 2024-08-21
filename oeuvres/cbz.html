@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <title>Cerebronze</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Cerebronze</em></h1>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/cbz_doc_sel_gen_zoom.JPG">
+        </div>
+
+        <p><em>Cerebronze</em> (2024)<br>
+            illiez, Ranjini Garani & Nelly Blanken<br>
+            In collaboration with Olivier Nadeau Seguin & Peter Vrana<br>
+            Bronze, steel - 3m x 1m x 1.5m (4 pieces 60x30x150cm)
+        </p>
+
+        <p><em>Cerebronze</em> is a bronze sculpture exploring neuroscience through a playful and tangible representation of neuroimaging techniques. The installation consists of four freestanding bronze-cast pieces replicating a sagittal slice of the human brain. The individual pieces take the shape of the four cerebral lobes – frontal, parietal, temporal, and occipital – placed so as to offer perspectival play. Viewers are invited to navigate the sculpture, discovering different facets of the human brain.</p>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/cbz_doc_sel_perspective.JPG">
+            <img class="twoWide" src="assets/doc/cbz_doc_sel_model.png">
+        </div>
+
+        <p>The depictions of brain structure taken from magnetic resonance imaging (MRI) scans are complemented by representations of brain chemical activity inspired by positron emission tomography (PET). These choices, partly aesthetic, also find their justification in the imaging process itself: the PET scans acquired are overlaid onto MRI for the identification of regional brain chemical activity.</p>
+
+        <div class="image-container">
+            <img class="threeWide" src="assets/doc/cbz_doc_sel_cnc.jpg">
+            <img class="threeWide" src="assets/doc/cbz_doc_sel_dip.jpg">
+            <img class="threeWide" src="assets/doc/cbz_doc_sel_burn.jpg">
+        </div>
+
+        <p>The realization of the sculpture is divided into several stages. First, the MRI files are processed and modeled in a 3D software. The models are then milled in wood using a CNC machine. A silica mold is layered around the wood, which is then burned out of the solidified mold. The pieces are then cast in bronze. Finally, heat is strategically applied to craft an artistic representation of a PET activation color map across a brain slice, illustrating neurochemical activity.</p>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/cbz_doc_sel_patina&texture.JPG">
+        </div>
+
+        <p>Although this project aims for scientific accuracy in portraying brain functionality, the introduction of bronze brings with it a level of unpredictability and artistic abstraction. While the manufacturing techniques highlight the fusion between traditional artistry and modern technology, placing a bronze sculpture outside conventional spaces aims to make both science and art more accessible to the public.</p>
+
+        <p>Blending visual appeal, physical interaction, and reflection, <em>Cerebronze</em> aspires to offer new perspectives on brain function, providing a space where art and science converge to ignite curiosity and deepen understanding.</p>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/cbz_doc_sel_gen_1x1.JPG">
+        </div>
+
+        <h2>Exhibitions:</h2>
+        <ul>
+            <li>Convergence 7, Research Institute of the McGill University Health Centre (Montreal, Quebec)</li>
+            <li>Neuroreceptor Mapping (NRM) Conference, Centre Mont-Royal (Montreal, Quebec)</li>
+            <li>QBIN Scientific Day 2024, Concordia University (Montreal, Quebec)</li>
+            <li>Douglas Research Day, Douglas Mental Health University Institute (Montreal, Quebec)</li>
+            <li>NeuroLingo Spring 2024 Edition, Bibliothèque et Archives nationales du Québec (Montreal, Quebec)</li>
+            <li>Amazing Brain (HBHL), PHI Centre (Montreal, Quebec)</li>
+            <li>HBHL symposium.</li>
+        </ul>
+
+        <div class="logo-container">
+            <img src="assets/doc/ACD_logos_Convergence_cut.png">
+            <img src="assets/doc/ACD_logos_QBIN.png">
+            <img src="assets/doc/ACD_logos_CSU_b.png">
+            <img src="assets/doc/ACD_logos_CUAA_b.png">
+        </div>
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
