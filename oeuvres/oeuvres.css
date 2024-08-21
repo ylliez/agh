@@ -33,11 +33,18 @@ h2 {
   gap: 1px;
 }
 
-.audio-container img {
+.image-container imgasdfjkh {
   /* display: block; */
   max-width: 100%;
   /* height: auto; */
-  border-radius: 35%;
+  border-radius: 20px;
+}
+
+.image-container iframe {
+  /* display: block; */
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 20px;
 }
 
 .audio-container {
