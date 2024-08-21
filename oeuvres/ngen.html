@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
     <title>Neurogenesis</title>
+    <style>
+        body {
+            background-image: url('assets/doc/ngen_doc_DA16x9.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,7 +40,7 @@
             <img class="oneWide" src="assets/doc/ngen_doc_vizModel.png">
         </div>
 
-        <p><em>Neurogenesis</em> (2023)<br>
+        <p class="aligned-right"><em>Neurogenesis</em> (2023)<br>
             Max/MSP, OpenBCI_GUI, OpenBCI EEG headset, 27-screen display wall, 27-speaker sound system
         </p>
 

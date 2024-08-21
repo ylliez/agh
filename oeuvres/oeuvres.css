@@ -1,7 +1,7 @@
 #page {
   font-family: Arial, sans-serif;
   /* background-color: #f9f9f9; */
-  color: #333;
+  color: #000;
   padding-right: 80px;
   padding-left: 80px;
   padding-bottom: 80px;
@@ -13,7 +13,8 @@ h1 {
 }
 
 h2 {
-  color: #555;
+  font-size: 1.5em;
+  color: #333;
 }
 
 .centered {
