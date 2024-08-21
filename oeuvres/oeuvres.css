@@ -89,3 +89,13 @@ h2 {
   width: 24%;
   height: auto;
 }
+
+.oneThirdWide {
+  width: 32%;
+  height: auto;
+}
+
+.twoThirdWide {
+  width: 65%;
+  height: auto;
+}
