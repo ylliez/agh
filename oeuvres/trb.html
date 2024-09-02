@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/circle.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>[TRB]</title>
+    <style>
+        body {
+            background-image: url('assets/doc/trb_doc_res_3.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1>[TRB]</h1>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/trb_doc_r&d_1.jpg">
+            <iframe class="twoWide" src="https://www.youtube.com/embed/TM6WOM4t0I0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="image-container">
+            <iframe class="twoWide" src="https://www.youtube.com/embed/kSVUlPP_iOs" frameborder="0" allowfullscreen></iframe>
+            <img class="twoWide" src="assets/doc/trb_doc_r&d_4.jpg">
+        </div>
+
+        <div class="image-container">
+            <img src="assets/doc/trb_doc_res_1_z.jpg" width="39%">
+            <img src="assets/doc/trb_doc_res_3.jpg" width="59%">
+        </div>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/trb_doc_res_2.jpg">
+        </div>
+
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => { document.getElementById('menu').innerHTML = data; });
+    </script>
+</body>
+
+</html>
