@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/circle.ico">
+    <title>Cerebronze</title>
+    <style>
+        body {
+            background-image: url('assets/doc/rein_fingiemolds.JPG');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Re:Incarnation</em></h1>
+        <!-- <h2><em>E-Sphyxiation | Echostasis | Enterface</em></h2> -->
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/rein_all.jpg">
+        </div>
+
+        <p class="aligned-right"><em>Re:Incarnation</em> (2024)<br>
+            Silicone, electronics, found materials (obsolete devices) - 3 x 1.5m
+        </p>
+
+        <hr>
+
+        <p>Experimental installation combining sculpture and new media art to investigate the intersection of bodily presence and technological interface. Through silicone lifecasting, obsolete devices and embedded electronics, the project centers on creating striking, sensorial and haptic pieces, fusing cast body parts with technological objects to generate hybridized forms that question the thresholds of embodiment in a post-digital world.</p>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/rein_aspx_all.JPG">
+        </div>
+        <p>E-Sphyxiation</p>
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/rein_aspx_prod.JPG">
+            <img class="twoWide" src="assets/doc/rein_aspx_zoom.JPG">
+        </div>
+
+        <p>Echostasis</p>
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/rein_echo_zoom.JPG">
+        </div>
+
+        <p>Enterface</p>
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/rein_xfce_all.JPG">
+        </div>
+
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>

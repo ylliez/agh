@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/circle.ico">
+    <title>Cerebronze</title>
+    <style>
+        body {
+            background-image: url('assets/doc/arep_prod.JPG');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Ainsi se résume l'essentiel de la preuve</em></h1>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/arep_prod.JPG">
+        </div>
+
+        <p class="aligned-right"><em>Ainsi se résume l'essentiel de la preuve</em> (2024)<br>
+            Found materials (ceramic tiles, fabric, wood, couch) - 1 x 1.5m
+        </p>
+
+        <hr>
+
+        <p>Sculptural installation. Kitchen tiles engraved with legal documents stemming from yearslong struggle for housing security.</p>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/arep_all.JPG">
+        </div>
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
