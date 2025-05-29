@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="oeuvres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/circle.ico">
+    <title>Street Apnea</title>
+    <style>
+        body {
+            background-image: url('assets/doc/sapn_lens.JPG');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 66.25vw;
+            max-height: 720px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <div id="page">
+        <h1><em>Street Apnea</em></h1>
+
+        <div class="image-container">
+            <img class="oneWide" src="assets/doc/sapn_all.jpg">
+        </div>
+
+        <hr>
+
+        <p>Durational performance. VR headset with navigation application worn in all public spaces for a week.</p>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/x8vPCBkUAhk" title="Street Apnea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/sapn_view1.jpg">
+            <img class="twoWide" src="assets/doc/sapn_view2.jpg">
+        </div>
+
+        <div class="image-container">
+            <img class="twoWide" src="assets/doc/sapn_photo1.jpg">
+            <img class="twoWide" src="assets/doc/sapn_photo2.jpg">
+        </div>
+
+    </div>
+
+    <script>
+        fetch('../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
